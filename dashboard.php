@@ -53,6 +53,8 @@ function rupiah($amount)
 </head>
 
 <body>
+    <!-- Navbar -->
+    <?php require "includes/navbar.php" ?>
     <div class="container mt-5">
         <h1 class="mb-4">Dashboard</h1>
         <div class="row">
@@ -140,6 +142,9 @@ function rupiah($amount)
             }
         });
     </script>
+    <!-- Footer -->
+    <?php require "includes/footer.php" ?>
+
     <!-- Javascript -->
     <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>

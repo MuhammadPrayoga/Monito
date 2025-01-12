@@ -36,7 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 <input type="date" name="date" class="form-control" required>
             </div>
             <button type="submit" class="btn btn-success">Tambah</button>
-            <a href="index.php" class="btn btn-secondary">Batal</a>
+            <a href="../index.php" class="btn btn-secondary">Batal</a>
         </form>
     </div>
 </body>
